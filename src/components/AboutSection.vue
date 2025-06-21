@@ -5,7 +5,7 @@
         </div>
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
-                <h2 class="text-4xl font-bold text-white text-left mb-8">My Education</h2>
+                <h2 class="text-4xl font-bold text-white text-left mb-8">Minha educação</h2>
                 <div class="space-y-8 py-8">
                     <div v-for="element in education" :key="element.id"
                     class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
@@ -24,28 +24,25 @@
                 </div>
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
-                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">More
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">About</span>
-                    Me
+                <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">+
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">SOBRE</span>
+                    Carreira Profissional
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe
-                      eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus 
-                      illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore 
-                      quaerat quis nobis id similique!
+                <p class="text-base lg:text-lg mt-8 py-8"> Aos 19 anos comecei no mundo da programação cursando a faculade de tecnólogo de Análises e desenvolvimento de sistemas.
+                    Atuei em departamentos tecnólogicos de contabiliade, fábricas de software e no momento em uma empresa focada para Departamento Júridico focado em IA.
                 </p>
                 <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+4</h3>
                         <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+300</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+3s</h3>
                         <p class="text-sm sm:text-base text-gray-300">Project</p>
                     </div>
 
                     <div class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
-                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+7</h3>
+                        <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">+2</h3>
                         <p class="text-sm sm:text-base text-gray-300"> Years Experience</p>
                     </div>
                 </div>
@@ -58,15 +55,21 @@ import { ref } from 'vue';
 const education=ref([
     {
         id:1,
-        School:'school 1',
-        program:'Software Engineer',
+        School:'UNOPAR',
+        program:'Análises e desenvolvimento de sistemas',
         year:'2022'
     },
     {
         id:2,
-        School:'school 2',
-        program:'Software Engineer',
-        year:'2020'
+        School:'COTI INFORMÁTICA',
+        program:'WEB FULSTACK ANGULAR/.NET & SQL',
+        year:'2022'
+    },
+    {
+        id:3,
+        School:'COTI INFORMÁTICA',
+        program:'ARQUITETURA DE SISTEMAS',
+        year:'2023'
     }
 ])
 </script>

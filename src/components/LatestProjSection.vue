@@ -2,7 +2,7 @@
     <section class="text-white mt-20" id="projects">
         <div class="px-4 xl:pl-16">
             <div class="mb-4 md:flex md:justify-between xl:pr-16">
-                <h2 class="text-4xl font-bold text-white"> My Latest Projects</h2>
+                <h2 class="text-4xl font-bold text-white"> MEUS PROJETOS</h2>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
                     <button class="hover:text-primary" v-for="category in ['all', 'web development', 'Mobile App']"
                         :key="category" @click="() => selectedCategory = category">

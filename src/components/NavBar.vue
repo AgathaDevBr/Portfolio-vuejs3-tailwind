@@ -37,12 +37,12 @@
 <script setup>
 import { ref } from 'vue';
 const Menu =ref([
-    {name:'Services',href:'#services'},
-    {name:'About Me',href:'#about'},
+    {name:'Serviços',href:'#services'},
+    {name:'Sobre mim',href:'#about'},
     {name:'Skills',href:'#skills'},
-    {name:'Projects',href:'#projects'},
-    {name:'Testimonials',href:'#testimonials'},
-    {name:'Contact',href:'#contact'},
+    {name:'Projetos',href:'#projects'},
+    {name:'Clientes',href:'#testimonials'},
+    {name:'Contato',href:'#contact'},
 ]);
 
 const isMenuOpen =ref(false)

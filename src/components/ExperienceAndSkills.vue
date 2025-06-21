@@ -50,23 +50,28 @@ import { ref } from 'vue';
 const Skills =ref([
     {
         id:1,
-        name:'HTmL & CSS',
+        name:'Angular & Vue.Js',
         width:'85%'
     },
     {
         id:2,
-        name:'Python',
-        width:'70%'
+        name:'.NET',
+        width:'80%'
     },
     {
         id:3,
         name:'JavaScript',
-        width:'98%'
+        width:'78%'
     },
     {
         id:4,
-        name:'figma',
+        name:'SQL & NOSQL OU ORACLE',
         width:'91%'
+    },
+    {
+        id:4,
+        name:'AZURE, GIT',
+        width:'100%'
     },
 ]);
 
@@ -74,14 +79,20 @@ const Experinces =ref([
     {
         id:1,
         role:'Software Engineer',
-        company:'Microsoft',
-        date:'Mar 2023 - September 2024'
+        company:'INFIS CONSULTORIA CONTÁBIL',
+        date:'FEVEREIRO 2022 - AGOSTO 2023'
     },
     {
         id:2,
-        role:'Frontend Developer',
-        company:'Spotify',
-        date:'Mar 2022 - September 2023'
+        role:'Web FullStack Developer',
+        company:'INNOLEVERS',
+        date:'JULHO 2024 - JANEIRO 2025'
+    },
+    {
+        id:3,
+        role:'Web FullStack Developer',
+        company:'ELAW TECNOLOGIA S.A.',
+        date:'JANEIRO 2025 - ATÉ O MOMENTO'
     },
 ])
 </script>
